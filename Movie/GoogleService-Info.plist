@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>916139443616-q2013jttlvcqe1455i6dlfp45ddl6981.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.916139443616-q2013jttlvcqe1455i6dlfp45ddl6981</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBAqKfEFEwe-x9PwhVp9AvTfi-27orQTYg</string>
+	<key>GCM_SENDER_ID</key>
+	<string>916139443616</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.alex.groupmessage</string>
+	<key>PROJECT_ID</key>
+	<string>movie-c8a4d</string>
+	<key>STORAGE_BUCKET</key>
+	<string>movie-c8a4d.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:916139443616:ios:1d8ce74f61eb159acad0c5</string>
+	<key>DATABASE_URL</key>
+	<string>https://movie-c8a4d.firebaseio.com</string>
+</dict>
+</plist>
