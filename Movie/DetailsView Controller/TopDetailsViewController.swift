@@ -496,6 +496,13 @@ class TopDetailsViewController: UIViewController, UICollectionViewDataSource , U
         query.observe( .value, with: { (snapshot) in
             self.currentUser = snapshot.value as? [String: AnyObject] ?? [:]
             self.BtnPost.isEnabled = true
+                        
+            let url = self.currentUser["imageUrl"] as! String
+            let storageRef = Storage.storage().reference(forURL: url)
+            storageRef.getData(maxSize: 512 * 512, completion: {(data, error) -> Void in
+                let pic = UIImage(data: data!)
+                self.imgUser.image = pic
+            })
         })
     }
     
@@ -612,7 +619,6 @@ extension TopDetailsViewController : UITableViewDataSource{
             let pic = UIImage(data: data!)
             cell.imgUser.image = pic
         })
-        
 //        cell.imgUser.downloadedFrom(url: URL(string: url)!)
         
         cell.lblname.text = commentData["ownerName"] as? String
